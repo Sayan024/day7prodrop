@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(193, 189, 185);
+    color: aliceblue;
+}
+nav{
+    background-color: rgb(0, 116, 151);
+    width: 100%;
+    height: 4rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.upic{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#submenuwrap{
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    width: 250px;
+    margin-top: 10px;
+    max-height: 0px;
+    background-color: aliceblue;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height .5s ease-in-out ;
+}
+
+.submenu{
+    padding: 20px;
+}
+.uinfo{
+    display: flex;
+    align-items: center;
+}
+.uinfo h3{
+    color: black;
+}
+.submenu hr{
+    margin-top: 10px;
+}
+#submenuwrap a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+}
+.submenulink{
+  display: flex;
+  align-items: center; 
+  margin: 12px;
+}
+.submenulink p{
+    width: 100%;
+    font-weight: 500;
+}
+
+.submenulink p:hover{
+    color:rgb(138, 120, 120);
+}
+.submenulink span:hover{
+    transform: translateX(10px);
+}

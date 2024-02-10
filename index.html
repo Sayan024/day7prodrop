@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile drop down menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/screenshot.png" alt="" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="images/profilepic.png" alt="" class="upic" onclick="toggle()">
+            <div id="submenuwrap">
+                <div class="submenu">
+                    <div class="uinfo">
+                        <img src="images/profilepic.png" class="upic" alt="">
+                        <h3>Username</h3>
+                    </div>
+                    <hr>
+                    <a href="#" class="submenulink">
+                        <img src="images/profile-user.png" alt="">
+                        <p> Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="submenulink">
+                        <img src="images/help-web-button.png" alt="">
+                        <p>Help</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="submenulink">
+                        <img src="images/settings.png" alt="">
+                        <p>Settings</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="submenulink">
+                        <img src="images/logout.png" alt="">
+                        <p>Logut</p>
+                        <span>></span>
+                    </a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
